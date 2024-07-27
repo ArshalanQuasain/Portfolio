@@ -7,6 +7,7 @@ import Navbar from './component/Navbar';
 import Footer from './component/Footer';
 import Skill from './skill/Skill';
 import ProjectDisplay from "./Project/ProjectDisplay";
+import Contact from './contact/Contact';
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/Project' element = {<Project/>}/>
             <Route path="/project/:id" element={<ProjectDisplay />} />
             <Route path='/Experience' element = {<Experience/>}/>
+            <Route path='/Contact' element = {<Contact/>}/>
           </Routes>
           <Footer/>
         </Router>
