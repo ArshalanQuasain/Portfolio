@@ -1,6 +1,14 @@
 import Todo from "../Image/Todo.png"
 import Blog from "../Image/Blog.png"
+import notesApp from "../Image/notes-app.png"
 export const ProjectList = [
+    {
+      name: "Notes-App",
+      image: notesApp,
+      skills: "React-js,javascript,MongoDB,Expressjs,Node",
+      Github: "https://github.com/ArshalanQuasain/Notes-App",
+      Link:"https://notes-app-1-4afd.onrender.com/"
+    },
     {
       name: "Blog_APP",
       image: Blog,
