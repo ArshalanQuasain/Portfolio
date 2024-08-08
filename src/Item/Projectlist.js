@@ -5,7 +5,7 @@ export const ProjectList = [
     {
       name: "Notes-App",
       image: notesApp,
-      skills: "React-js,javascript,MongoDB,Expressjs,Node",
+      skills: "React-js,javascript,MongoDB,Expressjs,NodeJs",
       Github: "https://github.com/ArshalanQuasain/Notes-App",
       Link:"https://notes-app-1-4afd.onrender.com/"
     },
