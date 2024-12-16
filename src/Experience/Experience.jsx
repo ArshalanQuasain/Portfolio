@@ -67,6 +67,17 @@ function Experience() {
           </h4>
           <p> Vice Chair IEEE Student Branch</p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2024 - 2025"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<FaBriefcase />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Keyom.ai
+          </h3>
+          <p> Software Enginner </p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
