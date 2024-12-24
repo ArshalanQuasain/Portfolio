@@ -1,9 +1,8 @@
 import { useRef, useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail, MdPhone } from 'react-icons/md';
-import { BiFile } from 'react-icons/bi';
+
 
 const Contact = () => {
   const form = useRef();
